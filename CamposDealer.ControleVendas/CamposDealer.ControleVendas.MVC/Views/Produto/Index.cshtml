@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CamposDealer.ControleVendas.Db.Produto>
+@{
+    ViewData["Title"] = "Produtos";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Produtos</h1>
+</div>
+<div class="row justify-content-center">
+
+    <div class="col-11 col-md-10 div-container">
+
+        <div class="col-12 justify-content-end text-right">
+            <a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Voltar</a>
+            <a class="btn btn-info" asp-controller="Produto" asp-action="Create">Novo</a>
+        </div>
+        <div class="col-12 div-table">
+            <table class="table table-striped" id="tableProduto">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Valor Unitário</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var produto in Model)
+                    {
+                        <tr data-idProduto="@produto.Id">
+                            <td class="td_nome">@produto.Nome</td>
+                            <td>@produto.Valor</td>
+                            <td style="width: 80px;">
+                                <i class="cursor-pointer" onclick='editarProduto(this)'><img class='iconedit' src='~/Icons/edit-2.svg' /></i>
+                                <i class="cursor-pointer" onclick='excluirProduto(this)'><img class='icondelete' src='~/Icons/trash-2.svg' /></i>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="modal_excluir">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">  
+      <div class="modal-body" id="modal_body">
+        
+      </div>
+      <div class="modal-footer">
+          <input type="hidden" id="modal_ipt_id"/>
+        <button type="button" class="btn btn-info" onclick="ConfirmarExclusao()">Sim</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="~/js/Produto/index.js"></script>

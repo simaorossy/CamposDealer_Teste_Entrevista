@@ -1,0 +1,15 @@
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\bin\Debug\net6.0\CamposDealer.ControleVendas.Services.deps.json
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\bin\Debug\net6.0\CamposDealer.ControleVendas.Services.dll
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\bin\Debug\net6.0\CamposDealer.ControleVendas.Services.pdb
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\CamposDealer.ControleVendas.Services.csproj.AssemblyReference.cache
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\CamposDealer.ControleVendas.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\CamposDealer.ControleVendas.Services.AssemblyInfoInputs.cache
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\CamposDealer.ControleVendas.Services.AssemblyInfo.cs
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\CamposDealer.ControleVendas.Services.csproj.CoreCompileInputs.cache
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\CamposDealer.ControleVendas.Services.dll
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\refint\CamposDealer.ControleVendas.Services.dll
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\CamposDealer.ControleVendas.Services.pdb
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\ref\CamposDealer.ControleVendas.Services.dll
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\bin\Debug\net6.0\CamposDealer.ControleVendas.Db.dll
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\bin\Debug\net6.0\CamposDealer.ControleVendas.Db.pdb
+C:\Users\simao\source\repos\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Services\obj\Debug\net6.0\CamposDealer.ControleVendas.Services.csproj.CopyComplete
