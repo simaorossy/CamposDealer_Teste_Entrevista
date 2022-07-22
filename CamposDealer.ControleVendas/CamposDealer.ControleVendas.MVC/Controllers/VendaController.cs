@@ -56,18 +56,36 @@ namespace CamposDealer.ControleVendas.MVC.Controllers
         public IActionResult Edit(int idVenda)
         {
             var venda = _vendaRepository.PesquisarVenda(idVenda);
-            return View(venda);
+            var model = new VendaDto()
+            {
+                ListaCliente = _clienteRepository.ListarClientes(),
+                ListaProduto = _produtoRepository.ListarProdutos(),
+                DataVenda = venda.DataVenda,
+                Cliente = venda.Cliente,
+                Produto = venda.Produto,
+                Id = venda.Id,
+                IdCliente = venda.Cliente.Id,
+                IdProduto = venda.Produto.Id,
+                QuantidadeProduto = venda.QuantidadeProduto,
+                ValorUnitario= venda.ValorUnitario,
+                ValorVenda = venda.ValorVenda               
+            };
+            return View(model);
         }
 
         [HttpPost]
         public JsonResult Edit(VendaDto model)
         {
             var retorno = new ResponseJsonDto() { Status = true, Mensagem = "ok" };
+
+            var produto = _produtoRepository.PesquisarProduto(model.IdProduto);
+            var cliente = _clienteRepository.PesquisarCliente(model.IdCliente);
+
             var venda = new Venda()
             {
                 Id = model.Id,
-                Cliente = model.Cliente,
-                Produto = model.Produto,
+                Cliente = cliente,
+                Produto = produto,
                 QuantidadeProduto = model.QuantidadeProduto,
                 ValorUnitario = model.ValorUnitario,
                 DataVenda = model.DataVenda,

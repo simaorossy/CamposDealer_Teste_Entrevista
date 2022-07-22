@@ -62,6 +62,8 @@ namespace CamposDealer.ControleVendas.Db.Repositories
 
         public void SalvarListaProduto(List<Produto> lista)
         {
+            _CamposDealerContext.Database.ExecuteSqlRaw("DBCC CHECKIDENT(Produtos, RESEED, 0)");
+
             _CamposDealerContext.Produtos.AddRange(lista);
             _CamposDealerContext.SaveChanges();
         }

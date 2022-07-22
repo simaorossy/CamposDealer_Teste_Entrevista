@@ -1,0 +1,78 @@
+﻿@model CamposDealer.ControleVendas.MVC.Models.VendaDto
+@{
+    ViewData["Title"] = "Venda";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Venda</h1>
+</div>
+
+<div class="row justify-content-center">
+
+    <div class="col-11 col-md-10 div-container">
+        <input type="hidden" id="ipt_id" value="@Model.Id"/>
+
+        <div class="col-12 justify-content-end text-right">
+            <a class="btn btn-secondary" asp-controller="Venda" asp-action="Index">Voltar</a>
+            <a class="btn btn-info" style="color:#fff" onclick="validation()">Salvar</a>
+        </div>
+        <div class="col-12 div-table">
+            <div class="row">
+                <div class="form-group col-12 ">
+                    <label for="slct_cliente">Cliente</label>
+                    <select class="form-select form-control ipt_required" id="slct_cliente">
+                        @foreach(var cliente in Model.ListaCliente){
+                            if(cliente.Id == Model.IdCliente)
+                            {
+                                <option value="@cliente.Id" selected>@cliente.Nome</option>
+                            }
+                            else
+                            {
+                                <option value="@cliente.Id">@cliente.Nome</option> 
+                            }                                                       
+                        }                                              
+                    </select>
+                    <small class="form-text text-muted d-none span_alert">Campo Cliente Obrigatório</small>
+                </div>
+                <div class="form-group col-12">
+                    <label for="slct_produto">Produto</label>
+                    <select class="form-select form-control ipt_required" id="slct_produto">
+                         @foreach(var produto in Model.ListaProduto){
+                            @if(produto.Id == Model.IdProduto)
+                            {                            
+                                <option value="@produto.Id" data-valorProduto="@produto.Valor" selected>@produto.Nome</option>
+                            }                            
+                            else
+                            {
+                                <option value="@produto.Id" data-valorProduto="@produto.Valor">@produto.Nome</option>
+                            }                
+                        }    
+                    </select>
+                    <small class="form-text text-muted d-none span_alert">Campo Produto Obrigatório</small>
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="ipt_quantidade">Quantidade Produto</label>
+                    <input type="number" class="form-control ipt_required" id="ipt_quantidade" value="@Model.QuantidadeProduto" placeholder="Digite a quantidade">
+                    <small class="form-text text-muted d-none span_alert">Campo Quantidade Obrigatório</small>
+                </div>
+
+                <div class="form-group col-12 col-md-6">
+                    <label for="ipt_valor">Valor Unitário</label>
+                    <input type="text" class="form-control ipt_required money" id="ipt_valor" value="@Model.ValorUnitario" placeholder="" value="0" disabled>
+                    <small class="form-text text-muted d-none span_alert">Campo Valor Obrigatório</small>
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="ipt_data">Data Venda</label>
+                    <input type="date" class="form-control ipt_required" id="ipt_data" placeholder="Digite a cidade" disabled>
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="ipt_total">Valor Total</label>
+                    <input type="text" class="form-control ipt_required money" id="ipt_total" value="@Model.ValorVenda" placeholder="Total" disabled>
+                </div>
+            </div>
+            
+        </div>       
+    </div>
+</div>
+
+<script src="~/js/Venda/edit.js"></script>

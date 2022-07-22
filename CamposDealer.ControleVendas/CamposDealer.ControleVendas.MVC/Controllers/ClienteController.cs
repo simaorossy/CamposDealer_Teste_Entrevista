@@ -56,5 +56,10 @@ namespace CamposDealer.ControleVendas.MVC.Controllers
             _clienteRepository.ExcluirCliente(idCliente);
             return Json(retorno);
         }
+
+        public void SalvarLista(List<Cliente> clientes)
+        {
+            _clienteRepository.SalvarListaCliente(clientes);
+        }
     }
 }

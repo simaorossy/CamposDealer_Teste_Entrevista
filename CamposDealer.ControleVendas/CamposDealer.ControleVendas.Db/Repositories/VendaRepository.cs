@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CamposDealer.ControleVendas.Db.Repositories
-{  
+{
     public class VendaRepository
     {
         private readonly CamposDealerContext _CamposDealerContext;
@@ -63,6 +63,8 @@ namespace CamposDealer.ControleVendas.Db.Repositories
 
         public void SalvarListaVenda(List<Venda> lista)
         {
+            _CamposDealerContext.Database.ExecuteSqlRaw("DBCC CHECKIDENT(Vendas, RESEED, 0)");
+
             _CamposDealerContext.Vendas.AddRange(lista);
             _CamposDealerContext.SaveChanges();
         }

@@ -6,15 +6,18 @@
     <title>@ViewData["Title"] - LayoutTeste</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
     @*JQUERY*@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     @*JQUERY MASK*@
     <script src="~/js/jQuery-Mask-Plugin-master/src/jquery.mask.js"></script>
     <script src="~/js/site.js"></script>
+
      @*Datatable*@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.24/datatables.min.css" />
     <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.24/datatables.min.js"></script>
-
+       
 </head>
 <body>
     <header>
@@ -50,6 +53,26 @@
         </main>
     </div>
 
+
+    <div class="modal" tabindex="-1" role="dialog" id="modal_ex">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">      
+        
+          <div class="modal-body" id="modal_ex_body">
+        
+          </div>
+          <div class="modal-footer">
+              <input type="hidden" id="modal_ipt_id"/>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     @*JQUERY MASK*@
@@ -57,4 +80,7 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
+
+
 </html>

@@ -64,11 +64,17 @@ function ConfirmarExclusao() {
         success: function (data) {
             location.href = '/Venda/Index';
         },
+        //error: function (data) {
+        //    $("#modal_excluir").modal('hide');
+        //    $("#modal_body").html('');
+        //    $("#modal_body").append('<p>' + data.responseText.split('!')[0] + '</p>');
+        //    $("#modal_excluir").modal('show');
+        //}
         error: function (data) {
-            $("#modal_excluir").modal('hide');
-            $("#modal_body").html('');
-            $("#modal_body").append('<p>' + data.responseText.split('!')[0] + '</p>');
-            $("#modal_excluir").modal('show');
+            $("#modal_ex").modal('hide');
+            $("#modal_ex_body").html('');
+            $("#modal_ex_body").append('<p>' + data.responseText.split('!')[0] + '</p>');
+            $("#modal_ex").modal('show');
         }
     })
 }
