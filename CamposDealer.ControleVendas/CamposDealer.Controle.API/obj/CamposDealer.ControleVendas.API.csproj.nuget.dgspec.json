@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\CamposDealer\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\CamposDealer.ControleVendas.API.csproj": {}
+    "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\projeto\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\CamposDealer.ControleVendas.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\CamposDealer\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\CamposDealer.ControleVendas.API.csproj": {
+    "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\projeto\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\CamposDealer.ControleVendas.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\CamposDealer\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\CamposDealer.ControleVendas.API.csproj",
+        "projectUniqueName": "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\projeto\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\CamposDealer.ControleVendas.API.csproj",
         "projectName": "CamposDealer.ControleVendas.API",
-        "projectPath": "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\CamposDealer\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\CamposDealer.ControleVendas.API.csproj",
+        "projectPath": "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\projeto\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\CamposDealer.ControleVendas.API.csproj",
         "packagesPath": "C:\\Users\\simao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\CamposDealer\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\obj\\",
+        "outputPath": "C:\\Users\\simao\\OneDrive\\Área de Trabalho\\projeto\\CamposDealer_Teste_Entrevista\\CamposDealer.ControleVendas\\CamposDealer.Controle.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -27,8 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/employertec/Etec.Utils/_packaging/Etec.Utils/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -45,6 +44,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +80,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
         }
       }
     }

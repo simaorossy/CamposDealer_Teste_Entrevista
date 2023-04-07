@@ -2,8 +2,8 @@
     $('.money').mask("##0,00", { reverse: true });
 });
 
-
 function validation() {
+
     $(".span_alert").addClass("d-none")
     $("input").css("border", " 1px solid #ced4da")
 

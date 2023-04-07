@@ -26,3 +26,17 @@ C:\Users\simao\OneDrive\Área de Trabalho\CamposDealer\CamposDealer_Teste_Entrev
 C:\Users\simao\OneDrive\Área de Trabalho\CamposDealer\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.pdb
 C:\Users\simao\OneDrive\Área de Trabalho\CamposDealer\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.genruntimeconfig.cache
 C:\Users\simao\OneDrive\Área de Trabalho\CamposDealer\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\ref\CamposDealer.ControleVendas.Db.dll
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\bin\Debug\net6.0\CamposDealer.ControleVendas.Db.deps.json
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\bin\Debug\net6.0\CamposDealer.ControleVendas.Db.runtimeconfig.json
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\bin\Debug\net6.0\CamposDealer.ControleVendas.Db.dll
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\bin\Debug\net6.0\CamposDealer.ControleVendas.Db.pdb
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.csproj.AssemblyReference.cache
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.AssemblyInfoInputs.cache
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.AssemblyInfo.cs
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.csproj.CoreCompileInputs.cache
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.dll
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\refint\CamposDealer.ControleVendas.Db.dll
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.pdb
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\CamposDealer.ControleVendas.Db.genruntimeconfig.cache
+C:\Users\simao\OneDrive\Área de Trabalho\projeto\CamposDealer_Teste_Entrevista\CamposDealer.ControleVendas\CamposDealer.ControleVendas.Db\obj\Debug\net6.0\ref\CamposDealer.ControleVendas.Db.dll
